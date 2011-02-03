@@ -5,17 +5,6 @@
 #
 # And be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
-#development:
-#  adapter: mysql2
-#  encoding: utf8
-#  reconnect: false
-#  database: crbc_development
-#  pool: 5
-#  username: root
-#  password:
-#  host: localhost
-  
-#Taylor MySQL
 development:
   adapter: mysql2
   encoding: utf8
@@ -23,8 +12,19 @@ development:
   database: crbc_development
   pool: 5
   username: root
-  password: AndrewKramerae7
-  host: 173.255.218.31
+  password:
+  host: localhost
+  
+#Taylor MySQL
+#development:
+#  adapter: mysql2
+#  encoding: utf8
+#  reconnect: false
+#  database: crbc_development
+#  pool: 5
+#  username: root
+#  password: AndrewKramerae7
+#  host: 173.255.218.31
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
